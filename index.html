@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Iba Der Coly | Développeur Full-Stack</title>
+    <title>Iba Der Coly | D&eacute;veloppeur Full-Stack</title>
     <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -15,7 +15,7 @@
         <div class="logo">Iba Der Coly</div>
         <div class="nav-links">
             <a href="#home" class="active">Accueil</a>
-            <a href="#about">À propos</a>
+            <a href="#about">&Agrave; propos</a>
             <a href="#projects">Projets</a>
             <a href="#stack">Stack</a>
             <a href="#journey">Parcours</a>
@@ -25,174 +25,138 @@
 </header>
 
 <main>
-    <!-- Hero Section avec photo -->
     <section id="home" class="hero">
         <div class="container hero-grid">
             <div>
                 <div class="badge-group">
-                    <span class="badge">✨ 5+ ans d'expérience</span>
-                    <span class="badge">🚀 Expert Full-Stack</span>
-                    <span class="badge">💡 Orienté impact</span>
+                    <span class="badge">5+ ans d'exp&eacute;rience</span>
+                    <span class="badge">Expert Full-Stack</span>
+                    <span class="badge">Orient&eacute; impact</span>
                 </div>
-                <h1>Développez rapidement,<br> passez à l'échelle avec <span class="highlight">du sens</span>.</h1>
-                <p class="hero-tagline">Iba Der Coly — développeur full-stack qui livre <strong>+30% de productivité</strong> & des systèmes infaillibles.</p>
+                <h1>D&eacute;veloppez rapidement,<br> passez &agrave; l'&eacute;chelle avec <span class="highlight">du sens</span>.</h1>
+                <p class="hero-tagline">Iba Der Coly, d&eacute;veloppeur full-stack qui livre des interfaces utiles et des syst&egrave;mes fiables.</p>
                 <div class="btn-group">
-                    <a href="#contact" class="btn-primary">Collaborons →</a>
+                    <a href="#contact" class="btn-primary">Collaborons</a>
                     <a href="#projects" class="btn-outline">Voir mes projets</a>
                 </div>
             </div>
-            
-            <!-- Cadre photo avec contour simple -->
+
             <div class="photo-frame">
                 <div class="photo-container">
                     <img src="ibader.png" alt="Iba Der Coly" class="profile-photo" id="profilePhoto">
                 </div>
                 <div class="photo-status">
-                    <i class='bx bx-check-circle'></i> Disponible
+                    <i class="bx bx-check-circle"></i> Disponible
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about">
         <div class="container">
-            <h2 class="section-title">Deux perspectives, un seul ingénieur</h2>
+            <h2 class="section-title">Deux perspectives, un seul ing&eacute;nieur</h2>
             <div class="two-col">
                 <div class="card">
-                    <h3>🎯 Pour les chefs de produit</h3>
-                    <p style="margin-top: 0.8rem;">Je construis des solutions scalables qui améliorent les KPIs business. Chez Weblink, j'ai refactorisé un ERP et réduit les requêtes lentes de <strong>40%</strong>, augmentant directement la vélocité de l'équipe. En tant que lead sur SmartCRM, j'ai augmenté la productivité commerciale de <strong>30%</strong> avec zéro perte de données sur 6 mois. Je traduis la vision produit en fonctionnalités résilientes et centrées utilisateur — sans dette technique.</p>
+                    <h3>Pour les chefs de produit</h3>
+                    <p style="margin-top: 0.8rem;">Je construis des solutions web claires, maintenables et orient&eacute;es utilisateur. J'aime transformer une id&eacute;e en interface concr&egrave;te, avec une attention particuli&egrave;re &agrave; la lisibilit&eacute;, &agrave; la performance et &agrave; l'exp&eacute;rience finale.</p>
                 </div>
                 <div class="card">
-                    <h3>⚙️ Pour les recruteurs techniques</h3>
-                    <p style="margin-top: 0.8rem;">Spécialiste full-stack (React, Next.js, Node, FastAPI, PostgreSQL, MongoDB). CI/CD avec GitHub Actions, Docker, tests avancés (Jest, Playwright). Conception de tableaux de bord temps réel (socket.io + React) utilisés par 2000+ agents. Expert en architecture propre, code typé (TypeScript) et optimisation base de données. Passionné par les revues de code et la maintenabilité.</p>
+                    <h3>Pour les recruteurs techniques</h3>
+                    <p style="margin-top: 0.8rem;">Je travaille avec HTML, CSS, JavaScript et les bases du d&eacute;veloppement web moderne. Je progresse projet apr&egrave;s projet, en consolidant mes comp&eacute;tences sur l'int&eacute;gration, les interactions front-end et la structure propre du code.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
     <section id="projects">
         <div class="container">
-            <h2 class="section-title">Projets phares</h2>
-            <div class="two-col" style="grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 2rem;">
-                <!-- SmartCRM -->
-                <div class="card">
-                    <h3>📊 SmartCRM</h3>
-                    <div class="project-meta"><span>Lead dev full-stack</span><span class="result-badge">+30% productivité commerciale</span></div>
-                    <p><strong>Contexte:</strong> PME logistique nécessitant un CRM sur mesure pour unifier le pipeline commercial.<br>
-                    <strong>Mon rôle:</strong> Architecte solo & développeur full-stack — du schéma BDD au déploiement.<br>
-                    <strong>Stack:</strong> React, Node.js, Express, PostgreSQL, Docker, JWT.<br>
-                    <strong>Défi technique:</strong> Synchronisation temps réel entre agents terrain et back-office avec file d'attente hors ligne fiable.<br>
-                    <strong>Résultat:</strong> +30% d'efficacité commerciale, zéro perte de données sur 6 mois, adopté par 4 départements.</p>
-                </div>
-                <!-- RendezVousPro -->
-                <div class="card">
-                    <h3>🩺 RendezVousPro</h3>
-                    <div class="project-meta"><span>Lead full-stack</span><span class="result-badge">taux d'erreur &lt;0,1%</span></div>
-                    <p><strong>Contexte:</strong> Plateforme de réservation médicale pour 150+ praticiens nécessitant zéro double réservation.<br>
-                    <strong>Stack:</strong> Next.js, Tailwind CSS, Prisma, MongoDB, NextAuth.<br>
-                    <strong>Défi technique:</strong> Conditions de concurrence sur les créneaux horaires + contraintes de disponibilité.<br>
-                    <strong>Résultat:</strong> Déployé en 3 semaines, taux d'erreur inférieur à 0,1%, gère 5000+ rendez-vous mensuels.</p>
-                </div>
-                <!-- EcoTrack -->
-                <div class="card">
-                    <h3>🌱 EcoTrack</h3>
-                    <div class="project-meta"><span>Développeur solo</span><span class="result-badge">15 000€ économisés</span></div>
-                    <p><strong>Contexte:</strong> Collectivité locale nécessitant un tableau de bord carbone pour 12 services.<br>
-                    <strong>Stack:</strong> Vue.js, FastAPI (Python), SQLite, Chart.js, REST.<br>
-                    <strong>Défi:</strong> Intégration de données CSV/Excel hétérogènes et production de KPIs visuels dynamiques.<br>
-                    <strong>Résultat:</strong> Adopté par 12 services, économie de 15 000€/an en reporting externe, réduction du temps de consolidation de 70%.</p>
-                </div>
+            <h2 class="section-title">Projets</h2>
+            <div class="projects-grid">
+                <a class="card project-card" href="https://blue-resto-5g0e01d73-ibader-s-projects.vercel.app/dict/index.html" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir le projet BleuResto">
+                    <img src="assets/BleuResto.PNG" alt="Aper&ccedil;u du projet BleuResto" class="project-image">
+                    <div class="project-content">
+                        <h3>BleuResto</h3>
+                        <div class="project-meta">
+                            <span>Projet d'entra&icirc;nement</span>
+                            <span class="result-badge">HTML, CSS, JavaScript</span>
+                        </div>
+                        <p>BleuResto est l'un de mes premiers projets d'entra&icirc;nement. C'est un site de restaurant simple, cr&eacute;&eacute; pour pratiquer la mise en page, le design d'une page web et les premi&egrave;res interactions avec JavaScript.</p>
+                        <span class="project-link">Voir le projet</span>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Stack Section -->
     <section id="stack">
         <div class="container">
             <h2 class="section-title">Stack technique</h2>
             <div class="two-col" style="gap: 1.6rem;">
                 <div class="card">
-                    <h3><i class='bx bx-code-block'></i> Frontend</h3>
+                    <h3><i class="bx bx-code-block"></i> Frontend</h3>
                     <div class="tech-stack">
-                        <span class="tech-item">React</span><span class="tech-item">Next.js</span><span class="tech-item">Vue.js</span>
-                        <span class="tech-item">Tailwind CSS</span><span class="tech-item">TypeScript</span>
-                    </div>
-                    <h3 style="margin-top: 1rem;"><i class='bx bx-server'></i> Backend</h3>
-                    <div class="tech-stack">
-                        <span class="tech-item">Node.js</span><span class="tech-item">Express</span><span class="tech-item">FastAPI</span>
-                        <span class="tech-item">Python</span><span class="tech-item">GraphQL</span><span class="tech-item">REST</span>
+                        <span class="tech-item">HTML</span>
+                        <span class="tech-item">CSS</span>
+                        <span class="tech-item">JavaScript</span>
+                        <span class="tech-item">Responsive design</span>
                     </div>
                 </div>
                 <div class="card">
-                    <h3><i class='bx bx-data'></i> Base de données & ORM</h3>
+                    <h3><i class="bx bx-wrench"></i> Outils</h3>
                     <div class="tech-stack">
-                        <span class="tech-item">PostgreSQL</span><span class="tech-item">MySQL</span><span class="tech-item">MongoDB</span>
-                        <span class="tech-item">Prisma</span><span class="tech-item">SQLite</span>
-                    </div>
-                    <h3 style="margin-top: 1rem;"><i class='bx bx-cloud'></i> DevOps & outils</h3>
-                    <div class="tech-stack">
-                        <span class="tech-item">Git</span><span class="tech-item">Docker</span><span class="tech-item">GitHub Actions</span>
-                        <span class="tech-item">Vercel</span><span class="tech-item">Heroku</span><span class="tech-item">Postman</span>
-                    </div>
-                    <h3 style="margin-top: 1rem;">🧪 Qualité</h3>
-                    <div class="tech-stack">
-                        <span class="tech-item">Jest</span><span class="tech-item">Playwright</span><span class="tech-item">ESLint</span><span class="tech-item">Prettier</span>
+                        <span class="tech-item">Git</span>
+                        <span class="tech-item">GitHub</span>
+                        <span class="tech-item">Vercel</span>
+                        <span class="tech-item">VS Code</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Journey Section -->
     <section id="journey">
         <div class="container">
             <h2 class="section-title">Parcours professionnel</h2>
             <div class="two-col" style="align-items: start;">
                 <div>
                     <div class="card" style="margin-bottom: 1.5rem;">
-                        <h3>🔷 Weblink Sénégal · 2022 – aujourd'hui</h3>
-                        <p><strong>Développeur full-stack senior</strong> — Refactorisation de modules ERP legacy : <strong>-40% de requêtes lentes</strong> (SQL optimisé + cache). Mise en place pipelines CI/CD → temps de déploiement réduit à <strong>15 minutes</strong>. Mentorat de 2 juniors, instauration de la culture de revue de code.</p>
+                        <h3>D&eacute;veloppeur Web Fullstack &middot; Projets Personnels</h3>
+                        <p>D&eacute;veloppement d'applications web modernes et responsives. Cr&eacute;ation d'interfaces interactives avec JavaScript et React, int&eacute;gration de fonctionnalit&eacute;s dynamiques c&ocirc;t&eacute; client, conception de structures web optimis&eacute;es et ergonomiques, gestion et organisation de projets de d&eacute;veloppement web.</p>
                     </div>
                     <div class="card">
-                        <h3>🔷 Free Dakar · 2020 – 2022</h3>
-                        <p><strong>Développeur web full-stack</strong> — Maintenance d'un système de ticketing utilisé par <strong>2000+ agents internes</strong> (migration legacy PHP vers Node.js). Construction d'un tableau de bord temps réel (socket.io + React) réduisant le MTTR de 25%.</p>
-                    </div>
-                    <div class="card">
-                        <h3>🔷 Freelance · 2019 – 2020</h3>
-                        <p>Livraison de <strong>6 sites vitrines</strong> + <strong>2 boutiques e-commerce</strong> (WooCommerce / Snipcart). Taux de satisfaction client 98%, taux de fidélisation 40%.</p>
+                        <h3>R&eacute;alisation de Projets Acad&eacute;miques &middot; Universit&eacute;</h3>
+                        <p>D&eacute;veloppement de projets informatiques en &eacute;quipe. Cr&eacute;ation d'applications de gestion de facturation avec Java, manipulation de bases de donn&eacute;es, logique applicative, r&eacute;solution de probl&egrave;mes techniques et d&eacute;bogage.</p>
                     </div>
                 </div>
                 <div class="testimonial">
-                    <i class='bx bxs-quote-left' style="font-size: 2rem; color:#2BDEFD; opacity:0.6"></i>
-                    <p style="font-size: 1rem; margin: 0.8rem 0; font-weight: 400;">“Iba ne se contente pas de coder. Il pose les bonnes questions avant d'écrire une ligne. Il a repris notre back‑end legacy et l'a rendu maintenable en 2 mois - sans jamais casser la prod.”</p>
-                    <p style="font-weight: 700;">— Marie Diouf, Product Owner, Weblink Sénégal</p>
+                    <i class="bx bxs-quote-left" style="font-size: 2rem; color:#2BDEFD; opacity:0.6"></i>
+                    <p style="font-size: 1rem; margin: 0.8rem 0; font-weight: 400;">Iba apprend vite, pose les bonnes questions et cherche toujours &agrave; produire un travail clair, propre et utile.</p>
+                    <p style="font-weight: 700;">Portfolio personnel</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact">
         <div class="container">
-            <h2 class="section-title">Open to opportunities</h2>
+            <h2 class="section-title">Contact</h2>
             <div class="card" style="text-align: center; max-width: 800px; margin: 0 auto;">
-                <h3 style="font-size: 1.8rem;">🎯 Ce que je cherche aujourd'hui</h3>
+                <h3 style="font-size: 1.8rem;">Ce que je cherche aujourd'hui</h3>
                 <div class="badge-group" style="justify-content: center; margin: 1.2rem 0;">
-                    <span class="badge">CDI / Freelance (3-6 mois min)</span>
-                    <span class="badge">Stack idéale: TypeScript + Next.js + Node + PostgreSQL</span>
-                    <span class="badge">Autonomie technique + revues de code</span>
-                    <span class="badge">Impact utilisateur réel</span>
+                    <span class="badge">Stage / alternance / premi&egrave;re opportunit&eacute;</span>
+                    <span class="badge">HTML, CSS, JavaScript</span>
+                    <span class="badge">Projets concrets</span>
+                    <span class="badge">Progression continue</span>
                 </div>
-                <p style="margin: 1.5rem 0 1rem;">Construisons quelque chose de significatif — contactez-moi directement.</p>
+                <p style="margin: 1.5rem 0 1rem;">Je suis disponible pour &eacute;changer autour d'une opportunit&eacute; ou d'un projet web.</p>
                 <div class="contact-row">
-                    <a href="mailto:iba@dercoly.dev" class="contact-link"><i class='bx bx-envelope'></i> ibadercoly506@gmail.com</a>
-                    <a href="https://github.com/ibadercoly" class="contact-link"><i class='bx bxl-github'></i> github.com/ibadercoly</a>
-                    <a href="https://www.linkedin.com/in/ibader-coly-15177040a/" class="contact-link"><i class='bx bxl-linkedin-square'></i> linkedin.com/in/ibadercoly</a>
+                    <a href="mailto:ibadercoly506@gmail.com" class="contact-link"><i class="bx bx-envelope"></i> ibadercoly506@gmail.com</a>
+                    <a href="https://github.com/ibadercoly" class="contact-link"><i class="bx bxl-github"></i> github.com/ibadercoly</a>
+                    <a href="https://www.linkedin.com/in/ibader-coly-15177040a/" class="contact-link"><i class="bx bxl-linkedin-square"></i> linkedin.com/in/ibadercoly</a>
                 </div>
-                <div style="margin-top: 1rem;">
-                    <a href="ibader.pdf" class="btn-primary" style="background: none; border: 1.5px solid #2BDEFD; color:#2BDEFD;">⬇️ Télécharger CV (démo)</a>
+                <div class="document-actions">
+                    <a href="ibader.pdf" class="btn-outline" download>T&eacute;l&eacute;charger CV</a>
+                    <a href="lettre_motivation_ibader.pdf" class="btn-outline" download>T&eacute;l&eacute;charger lettre de motivation</a>
                 </div>
             </div>
         </div>
@@ -200,7 +164,7 @@
 </main>
 
 <footer>
-    <p>© 2025 Iba Der Coly — architecte full-stack. Construit avec précision et conviction.</p>
+    <p>&copy; 2026 Iba Der Coly - Portfolio personnel.</p>
 </footer>
 
 <script src="script.js"></script>

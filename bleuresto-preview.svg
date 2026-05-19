@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Apercu BleuResto</title>
+  <desc id="desc">Illustration d'une interface de restaurant pour le projet BleuResto.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#082f49"/>
+      <stop offset="0.48" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="plate" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <rect width="960" height="560" rx="44" fill="url(#bg)"/>
+  <g opacity="0.18">
+    <circle cx="112" cy="92" r="76" fill="#67e8f9"/>
+    <circle cx="854" cy="468" r="118" fill="#fde68a"/>
+    <circle cx="784" cy="94" r="46" fill="#38bdf8"/>
+  </g>
+  <g transform="translate(82 74)" filter="url(#shadow)">
+    <rect width="796" height="412" rx="28" fill="#f8fafc"/>
+    <rect width="796" height="78" rx="28" fill="#0f172a"/>
+    <rect y="50" width="796" height="28" fill="#0f172a"/>
+    <text x="44" y="50" fill="#67e8f9" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">BleuResto</text>
+    <g transform="translate(575 28)" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">
+      <text x="0" y="0">Accueil</text>
+      <text x="82" y="0">Menu</text>
+      <text x="145" y="0">Contact</text>
+    </g>
+    <g transform="translate(54 124)">
+      <text x="0" y="0" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800">Cuisine simple,</text>
+      <text x="0" y="54" fill="#0f766e" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800">saveurs fraiches</text>
+      <text x="0" y="105" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="18">Un site vitrine de restaurant realise en HTML, CSS et JavaScript.</text>
+      <rect x="0" y="140" width="158" height="46" rx="23" fill="#0891b2"/>
+      <text x="34" y="170" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Voir le menu</text>
+    </g>
+    <g transform="translate(512 142)">
+      <ellipse cx="116" cy="118" rx="122" ry="38" fill="#cbd5e1"/>
+      <circle cx="116" cy="96" r="96" fill="url(#plate)"/>
+      <circle cx="116" cy="96" r="70" fill="#fef3c7"/>
+      <circle cx="92" cy="88" r="20" fill="#ef4444"/>
+      <circle cx="140" cy="82" r="18" fill="#22c55e"/>
+      <path d="M65 119c34 28 72 31 105 0" fill="none" stroke="#92400e" stroke-width="18" stroke-linecap="round"/>
+      <rect x="-22" y="18" width="10" height="175" rx="5" fill="#64748b"/>
+      <rect x="244" y="22" width="10" height="170" rx="5" fill="#64748b"/>
+      <path d="M239 22c-22 25-22 50 0 76" fill="none" stroke="#64748b" stroke-width="8" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
